@@ -163,8 +163,9 @@
 		74E9B0851B35827300F03406 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BNR;
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = "Yinlin Zhang";
+				ORGANIZATIONNAME = "Big Nerd Ranch";
 				TargetAttributes = {
 					74E9B08C1B35827300F03406 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -350,6 +351,7 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,6 +362,7 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
